@@ -1,0 +1,10 @@
+id                          incremental
+
+nickname                    UNIQUE              varChar(30)     NOT NULL
+name                                            varChar(30)     NOT NULL
+surname                                         varChar(30)     NOT NULL
+age                                             tinyInt         NULL
+avatar_link                                     varChar(200)    NULL
+posts_number                                    mediumInt       NOT NULL
+user_privilegies                                varChar(30)     NOT NULL
+
